@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Include JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="src/practice.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<main>
+		<p class="top"><i>Powered by:</i></p>
+		<h1 class="head">Javascript</h1>
+		<h1>;)</h1>
+		<h2 class="text"></h2>
+	</main>
+
+	<section class="sect1">
+		<form>
+			<input type="text" name="name" placeholder="First name" id="name-el">
+			<div id="submit-el" onclick="myName()">Submit</div>
+		</form>
+
+		<h1>Your counter:</h1>
+	    <h2 id="count-el">0</h2>
+	    <button id="increment-btn" onclick="increment()">Increment</button>
+	    <button id="reset-btn" onclick="save()"><i>save</i></button>
+	    <button id="reset-btn" onclick="minusIncrement()"><i>reset</i></button>
+	    <p id="welcome-el"></p>
+	    <p id="save-el">Previous count:</p>
+	</section>
+
+	
+	<script type="text/javascript" src="src/index.js">
+	</script>
+</body>
+</html>
